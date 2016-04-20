@@ -10,5 +10,5 @@ public class Whale extends Animal {
 
     public String getName() {
         return "Whales dont have names, dummy";
-    };  
+    }  
 }

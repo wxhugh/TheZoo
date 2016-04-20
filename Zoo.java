@@ -21,6 +21,9 @@ public class Zoo {
             if (a instanceof Pet) {
                 System.out.println( ((Pet) a).getName());
             }
+            if (a instanceof Performer) {
+                System.out.println( ((Performer) a).stuntList());
+            }
         }
     }    
 }
