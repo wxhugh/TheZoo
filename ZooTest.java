@@ -4,7 +4,7 @@ public class ZooTest {
     //TODO: Add animals to the Zoo
     // - one Pet (not performer)
     // - one performer (not pet)
-    // - one performer (not pet)
+    // - one performer and pet
     // - one neither
     myZoo.rollCall();
   }
