@@ -5,7 +5,6 @@ public class Whale extends Animal {
     }
 
     public String eat() {
-        hunger = 1;
         return "The whale gulps plankton";
     } 
 
