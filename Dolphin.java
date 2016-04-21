@@ -5,7 +5,7 @@ public class Dolphin extends Animal implements Performer {
 	}
 
 	public String stuntList() {
-		return "Jump/nPLay with Ball";
+		return "Jump\nPlay with Ball";
 	}
 
 	public String eat() {
@@ -18,13 +18,13 @@ public class Dolphin extends Animal implements Performer {
 
 	 public void doStunt(String stunt) {
     if (stunt.equals("Jump")) {
-      System.out.println(this.getName() + " jumps.");
+      System.out.println("The dolphin jumps out of the water.");
     }
     else if (stunt.equals("Play with Ball")) {
-      System.out.println(this.getName() + " plays with ball.");
+      System.out.println("The dolphin plays with the ball.");
     }
     else {
-      System.out.println(this.getName() + " doesn't know how to " + stunt);
+      System.out.println("The dolphin doesn't know how to " + stunt);
     }
   }
 }
